@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 小a的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 21 Mar 2020 21:35:57 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 22:07:28 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何使用hugo搭建博客</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 21 Mar 2020 22:07:28 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>如何使用Hugo搭建博客  安装Hugo install Hugo 创建一个new site hugo new site quickstart 添加一个主题 git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  填写博客内容 hugo new posts/my-first-post.md 编辑my-first-post.md，即填写博客内容； 启动一个Hugo服务 hugo server -D 启动成功后可以浏览器访问本地Hugo服务 自定义主题 编辑config.toml文件，theme名字为刚刚添加的主题名； languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;My New Hugo Site&amp;quot; theme = &amp;quot;ananke&amp;quot;  建立静态页面 hugo -D  </description>
+    </item>
     
     <item>
       <title>第二篇博客</title>
